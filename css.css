@@ -111,10 +111,6 @@ a {
   padding: 10px;
 }
 
-.food__number.gyeonggi-do2 {
-  color: wheat;
-}
-
 .food__number:hover {
   color: #73aace;
 }
@@ -148,7 +144,7 @@ a {
   margin-left: 20px;
 }
 
-.gyeonggi-do {
+.city {
   display: flex;
   align-items: flex-start;
   border-bottom-style: solid;
@@ -160,13 +156,17 @@ a {
   padding-left: 10px;
 }
 
-.gyeonggi-do__Bossamkimchi {
+.city__food {
   padding-left: 10px;
 }
 
-.Bossamkimchi {
+.food {
   border-radius: 10px;
   border: 5px outset gray;
+}
+
+.make {
+  width: 90%;
 }
 
 /* footer */
